@@ -20,7 +20,7 @@ int writeSysParamsToStorage(void);
 #define STR(x)        STR_HELPER(x)
 
 // default parameters
-#define SETPOINT                  95     // brew temperature setpoint
+#define SETPOINT                  120     // brew temperature setpoint
 #define TEMPOFFSET                0      // brew temperature setpoint
 #define STEAMSETPOINT             120    // steam temperature setpoint
 #define SCALE_CALIBRATION_FACTOR  1.00   // Raw data is divided by this value to convert to readable data
@@ -66,7 +66,7 @@ int writeSysParamsToStorage(void);
 #define PID_TV_BD_MIN          0
 #define PID_TV_BD_MAX          999
 #define BREW_SETPOINT_MIN      20
-#define BREW_SETPOINT_MAX      110
+#define BREW_SETPOINT_MAX      150
 #define STEAM_SETPOINT_MIN     100
 #define STEAM_SETPOINT_MAX     140
 #define BREW_TEMP_OFFSET_MIN   0
