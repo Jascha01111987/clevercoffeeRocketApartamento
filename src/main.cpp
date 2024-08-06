@@ -550,7 +550,7 @@ void brewDetection() {
     if (brewDetectionMode == 1 && brewSensitivity == 0) return; // abort brewdetection if deactivated
 
     // Brew detection: 1 = software solution, 2 = hardware, 3 = voltage sensor
-    if (brewDetectionMode == 1) {
+    if (brewDetectionMode == 3) {
         if (isBrewDetected == 1) {
             timeBrewed = millis() - timeBrewDetection;
         }
